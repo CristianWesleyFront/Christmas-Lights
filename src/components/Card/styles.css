@@ -1,0 +1,11 @@
+.content {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
