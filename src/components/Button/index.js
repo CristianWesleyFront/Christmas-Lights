@@ -5,15 +5,14 @@ import "./styles.css";
 
 function Button({ children, onClick, color, textColor = "#333" }) {
   return (
-    //<PointTarget onPoint={onPress}>
-    <button
-      className={`button`}
-      style={{ color: textColor, background: color }}
-      onClick={onClick}
-    >
-      {children}
-    </button>
-    //</PointTarget>
+    <PointTarget onPoint={onClick}>
+      <button
+        className={`button`}
+        style={{ color: textColor, background: color }}
+      >
+        {children}
+      </button>
+    </PointTarget>
   );
 }
 
