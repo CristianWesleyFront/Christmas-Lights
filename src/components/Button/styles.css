@@ -18,15 +18,3 @@
 .button:hover {
   filter: brightness(90%);
 }
-
-.button.operations {
-  background-color: #0067bba1;
-}
-
-.button.numbers {
-  background-color: #f5f5;
-}
-
-.button.actions {
-  background-color: rgba(250, 54, 250, 0.589);
-}

@@ -3,15 +3,15 @@ import PointTarget from "react-point";
 
 import "./styles.css";
 
-function Button({ text, onPress, color, textColor = "#fff" }) {
+function Button({ children, onClick, color, textColor = "#333" }) {
   return (
     //<PointTarget onPoint={onPress}>
     <button
       className={`button`}
       style={{ color: textColor, background: color }}
-      onClick={onPress}
+      onClick={onClick}
     >
-      {text}
+      {children}
     </button>
     //</PointTarget>
   );
